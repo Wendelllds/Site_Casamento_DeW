@@ -1,0 +1,142 @@
+
+
+/* Geral */
+.navbar {
+  background-color: #ffff;
+}
+
+/* Inicio */
+#fundo-inicio{
+    height: 100vh;
+    background-image: url(img/fundo3.png);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+    background-size: cover;
+    
+
+}
+#countdown {
+    font-size: 2em;
+    margin-top: 10px;
+  }
+
+  .app{
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.container{
+  min-width: 50%;
+  min-height: 300px;
+  background-color: rgba(4, 116, 168, 0.488);
+  padding: 2rem;
+  border-radius: 2rem;
+  
+  
+}
+
+.dentro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  gap: 2rem;
+}
+/* contador */
+#titulo-principal{
+  font-size: 50px;
+  color: #ffff;
+  font-family: Lexend Deca, sans-serif;
+}
+#paragrafo{
+  font-size: 30px;
+  color: #ffff;
+  font-family: Courgette, cursive;
+  letter-spacing: 0.5rem;
+}
+
+#countdown{
+  color: #ffff;
+  font-size: 50px;
+  font-family: Changa;
+  /* letter-spacing: 0.5rem; */
+  
+}
+
+/* Hitoria */
+#texto-historia{
+    margin-top: 50px;
+    margin-left: 15px;
+    text-align: justify;
+    font-size: 20px;
+
+}
+#fundo-historia{
+    background-image: url(img/maos.png);
+    background-color: rgba(117, 135, 238, 0.342);
+    height: 100vh;
+}
+
+
+/* Fotos */
+
+
+#fundo-fotos{
+    background-image: url(img/fundo-fotos.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+ /* Estilos para o contêiner do carrossel */
+ .carousel-container {
+    width: 50%;
+    margin: 30px auto 10px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color:rgba(100, 212, 250, 0.464) ;
+    border: 2px solid rgb(22, 193, 250);
+  }
+
+  /* Estilos para a lista de imagens */
+  .carousel-list {
+    display: flex;
+    height: 80vh;
+    transition: transform 0.5s ease;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* Estilos para cada imagem */
+.carousel-item {
+  flex: 0 0 auto;
+  width: 90%;
+  height: 90%;
+  object-fit: contain; /* Ajusta a imagem dentro do contêiner sem distorcer sua proporção */
+  display: flex;
+  justify-content: center; /* Centraliza no eixo horizontal */
+  align-items: center; /* Centraliza no eixo vertical */
+  margin: auto; /* Adiciona margem automática para centralizar na horizontal */
+}
+
+  /* Estilos para os botões de navegação */
+  .carousel-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+  }
+
+  /* Estilos para os botões de navegação */
+  .carousel-nav button {
+    background-color: rgb(68, 183, 221);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
